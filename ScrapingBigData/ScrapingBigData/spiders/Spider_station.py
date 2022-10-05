@@ -21,10 +21,6 @@ class QuotesSpider(Spider):
 
 
     def start_requests(self):
-        urls = [
-            'https://quotes.toscrape.com/page/1/',
-            'https://quotes.toscrape.com/page/2/',
-        ]
         for region in self.data:
             link = f"{self.url}{region['id']}"
             yield Request(url=link, callback=self.parse,meta={'region':region['regione']})
