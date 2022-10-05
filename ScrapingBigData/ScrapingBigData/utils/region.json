@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "regione": "Lombardia"
+  },
+  {
+    "id": "2",
+    "regione": "Liguria"
+  },
+  {
+    "id": "3",
+    "regione": "Piemonte"
+  },
+  {
+    "id": "4",
+    "regione": "Valle d'Aosta"
+  },
+  {
+    "id": "5",
+    "regione": "Lazio"
+  },
+  {
+    "id": "6",
+    "regione": "Umbria"
+  },
+  {
+    "id": "7",
+    "regione": "Molise"
+  },
+  {
+    "id": "8",
+    "regione": "Emilia Romagna"
+  },
+  {
+    "id": "10",
+    "regione": "FVG"
+  },
+  {
+    "id": "11",
+    "regione": "Marche"
+  },
+  {
+    "id": "12",
+    "regione": "Veneto"
+  },
+  {
+    "id": "13",
+    "regione": "Toscana"
+  },
+  {
+    "id": "14",
+    "regione": "Sicilia"
+  },
+  {
+    "id": "15",
+    "regione": "Basilicata"
+  },
+  {
+    "id": "16",
+    "regione": "Puglia"
+  },
+  {
+    "id": "17",
+    "regione": "Calabria"
+  },
+  {
+    "id": "18",
+    "regione": "Campania"
+  },
+  {
+    "id": "19",
+    "regione": "Abruzzo"
+  },
+  {
+    "id": "20",
+    "regione": "Sardegna"
+  },
+  {
+    "id": "22",
+    "regione": "Trentino Alto Adige"
+  }
+]
