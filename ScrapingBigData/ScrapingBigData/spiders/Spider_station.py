@@ -2,19 +2,17 @@
 from scrapy import *
 import json
 
+
 class Station(Item):
     name = Field()
     region = Field()
     id = Field()
 
 
-
 class QuotesSpider(Spider):
     name = "Station"
     f = open('ScrapingBigData/ScrapingBigData/utils/region.json')
     data = json.load(f)
-    for i in data:
-        print(i['id'])
     f.close()
     url = 'http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/elencoStazioni/'
 
