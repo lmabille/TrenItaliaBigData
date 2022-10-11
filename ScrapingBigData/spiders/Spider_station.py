@@ -11,17 +11,15 @@ class Station(Item):
 
 class QuotesSpider(Spider):
     name = "Station"
-    f = open('ScrapingBigData/ScrapingBigData/utils/region.json')
+    f = open('ScrapingBigData/utils/region.json')
     data = json.load(f)
     f.close()
     url = 'http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/elencoStazioni/'
 
-
-
     def start_requests(self):
         for region in self.data:
             link = f"{self.url}{region['id']}"
-            yield Request(url=link, callback=self.parse,meta={'region':region['regione']})
+            yield Request(url=link, callback=self.parse, meta={'region': region['regione']})
 
     def parse(self, response):
         region = response.meta['region']
