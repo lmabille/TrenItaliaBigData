@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Ancona",
+    "id": "S07113"
+  },
+  {
+    "name": "Bari C.le",
+    "id": "S11119"
+  },
+  {
+    "name": "Bergamo",
+    "id": "S01529"
+  },
+  {
+    "name": "Bologna Centrale",
+    "id": "S05043"
+  },
+  {
+    "name": "Bolzano",
+    "id": "S02026"
+  },
+  {
+    "name": "Brescia",
+    "id": "S01717"
+  },
+  {
+    "name": "Caserta",
+    "id": "S09211"
+  },
+  {
+    "name": "Firenze S.M.N.",
+    "id": "S06421"
+  },
+  {
+    "name": "Foggia",
+    "id": "S11100"
+  },
+  {
+    "name": "Genova P.Princ.",
+    "id": "S04700"
+  },
+  {
+    "name": "La Spezia C.le",
+    "id": "S06000"
+  },
+  {
+    "name": "Lecce",
+    "id": "S11145"
+  },
+  {
+    "name": "Milano Centrale",
+    "id": "S01700"
+  },
+  {
+    "name": "Modena",
+    "id": "S05032"
+  },
+  {
+    "name": "Napoli Centrale",
+    "id": "S09218"
+  },
+  {
+    "name": "Padova",
+    "id": "S02581"
+  },
+  {
+    "name": "Paola",
+    "id": "S11739"
+  },
+  {
+    "name": "Perugia",
+    "id": "S07004"
+  },
+  {
+    "name": "Pescara",
+    "id": "S07810"
+  },
+  {
+    "name": "Pisa Centrale",
+    "id": "S06500"
+  },
+  {
+    "name": "Potenza Centrale",
+    "id": "S11420"
+  },
+  {
+    "name": "Ravenna",
+    "id": "S05811"
+  },
+  {
+    "name": "Reggio Emilia AV",
+    "id": "S05254"
+  },
+  {
+    "name": "Rimini",
+    "id": "S05071"
+  },
+  {
+    "name": "Roma Termini",
+    "id": "S08409"
+  },
+  {
+    "name": "Salerno",
+    "id": "S09818"
+  },
+  {
+    "name": "Sapri",
+    "id": "S11721"
+  },
+  {
+    "name": "Taranto",
+    "id": "S11465"
+  },
+  {
+    "name": "Torino P.Nuova",
+    "id": "S00219"
+  },
+  {
+    "name": "Trento",
+    "id": "S02038"
+  },
+  {
+    "name": "Treviso C.",
+    "id": "S02712"
+  },
+  {
+    "name": "Trieste Centrale",
+    "id": "S03317"
+  },
+  {
+    "name": "Udine",
+    "id": "S03026"
+  },
+  {
+    "name": "Venezia S.Lucia",
+    "id": "S02593"
+  },
+  {
+    "name": "Ventimiglia",
+    "id": "S04501"
+  },
+  {
+    "name": "Verona P.Nuova",
+    "id": "S02430"
+  },
+  {
+    "name": "Vicenza",
+    "id": "S02446"
+  }
+]

@@ -6,7 +6,7 @@ from ScrapingBigData.crawl import crawl
 
 
 def scrape(event={}, context={}):
-    crawl(**event)
+    crawl()
 
 
 if __name__ == "__main__":
