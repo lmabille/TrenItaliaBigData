@@ -34,7 +34,7 @@ class QuotesSpider(Spider):
         for station in self.data:
             print(station)
             link = f"{self.url}{station['id']}/{date}"
-            url = f"http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/partenze/{station['id']}/{day}%20{month}%20{day_num}%20{year}%20{hour}%20GMT+0200%20(heure%20d%E2%80%99%C3%A9t%C3%A9%20d%E2%80%99Europe%20centrale)"
+            url = f"http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/partenze/{station['id']}/{day}%20{month}%20{day_num}%20{year}%20{hour}%20GMT+0100%20(heure%20normale%20d%E2%80%99Europe%20centrale)"
             yield Request(url=url, callback=self.returnRawData, meta={'station_departure': station['name'], 'id': station['id']})
 
     def parse(self, response):
